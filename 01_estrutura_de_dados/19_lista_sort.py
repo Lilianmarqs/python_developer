@@ -5,7 +5,7 @@ print(frutas)
 frutas.sort(reverse=True)
 print(frutas)
 
-frutas.sort(key=lambda x: len(x)) #lambda é uma função pra ordener por tamanho
+frutas.sort(key=lambda x: len(x)) #lambda é uma função pra ordener por tamanho 
 print(frutas)
 
 frutas.sort(key=lambda x: len(x), reverse=True)
