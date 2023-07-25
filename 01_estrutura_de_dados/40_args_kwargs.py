@@ -4,3 +4,10 @@ def exibir_poema(data_extenso, *args, **kwargs):
     mensagem = f"{data_extenso}\n\n{texto}\n\n{meta_dados}"
     print(mensagem)
 
+exibir_poema(
+
+)
+
+#kwargs é um argumento passado de chave + valor
+# *args lista
+#**kwargs dicionario
